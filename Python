@@ -1,0 +1,325 @@
+# x = 50
+# y = 10
+# print(x)
+# print("x+y = > ", x + y)
+# print("x-y = > ", x - y)
+# print("x*y = > ", x * y)
+# print("x/y = > ", x / y)
+# print("x//y = > ", x // y)
+# print("x**y = > ", x ** y)
+
+# # take input from user and print
+# # id=int(input("Enter your id"))
+# # Name=input("Enter your name")
+# # Salary=int(input("Enter your salary"))
+# # print('Id, Name and salary is '+str(id)+' '+Name+' '+str(Salary))
+
+# # Comparison operators
+# x = 20
+# y = 22
+# print("x > y is ", x > y)
+# print("x < y is ", x < y)
+# print("x == y is ", x == y)
+# print("x != y is ", x != y)
+# print("x >= y is ", x >= y)
+# print("x <= y is ", x <= y)
+
+# # Logical operators
+# x = True
+# y = False
+
+# print("x and y is ", x and y)
+# print("x or y is ", x or y)
+# print("not y is ", not y)
+# print("not x is ", not x)
+
+
+# a = 0
+# print(a)
+# a += 25
+# print(a)
+
+
+# # Special operator
+# d1 = 45
+# d2 = 45
+# w1 = [1, 2, 4]
+# w2 = [1, 2, 4]
+
+# e1 = "Hello"
+# e2 = "Hello"
+# print(d1 is d2)
+# print(e1 is not e2)
+# print(w1 is not w2)
+
+# # Membership Operator
+# x = " Hiii"
+# y = {1: "1001", 2: "h"}
+# print("H" in x)
+# print(3 in y)
+
+
+# # if else
+
+# int_a = 10
+# int_b = 20
+
+# if (int_a == 10) and (int_b == 20):
+#     print("Fine")
+# else:
+#     print("Not ok")
+
+
+# # number = float(input("ENter any number"))
+
+# # if number >= 0:
+# #     if number == 0:
+# #         print("Zero")
+# #     else:
+# #         print("Positive Number")
+# # else:
+# #     print("Negative number")
+
+
+# # Get multiple values from input user
+# # x, y, z = input("Enter three values ").split()
+# # print("Value of X ", x)
+# # print("Value of y ", y)
+# # print("Value of z ", z)
+
+# # total = int(x) + int(y) + int(z)
+# # print("Total", total)
+
+
+# # Else if example
+# # e = 1
+# # f = 5
+# # if e % f == 0 and f < e:
+# #     print("e is divisible")
+# #     print("f is less than e")
+# # elif e == f:
+# #     print("f is equl to e")
+# # elif f > e:
+# #     print("f is greater than e")
+# # else:
+# #     print("Good bye")
+
+
+# Loops
+# numbers = [2, 3, 4, 5, 6, 12, 45, 13, 44]
+# sum = 0
+# for items in numbers:
+#     sum = sum + items
+# print("The sum is", sum)
+
+
+# listvar = [
+#     "wd",
+#     "af",
+#     "dc",
+#     "ce",
+#     13,
+#     32,
+#     34,
+#     -12,
+#     [23, 34, 12],
+#     ["de", "fr", "vr", "ef"],
+# ]
+# for elements in listvar:
+#     print(elements, end=" ")
+
+# while loop
+# sum = 0
+# j = 1
+# while j < 10:
+#     sum += j
+#     j += 1
+# print(sum)
+
+# Range function
+
+# total = 0
+# listitems = list(range(0, 20, 2))
+# for e in listitems:
+#     if e % 3 == 0 and e % 2 == 0:
+#         total += e
+#         print(e)
+# print(listitems)
+# print(total)
+
+
+# Find odd even in a range
+# listitems = list(range(0, 100))
+# for e in listitems:
+#     if e % 2 == 0:
+#         print(str(e) + " is even")
+#     else:
+#         print(str(e) + " is odd")
+
+
+# name = input("Enter name")
+# student_id = {"ABC": 100, "BCA": 101, "CBA": 103}
+# for e in student_id:
+#     if e == name:
+#         print(student_id[e])
+#         break
+# else:
+#     print("Not Found")
+
+
+# Oneline Expressions
+# a, b = 20, 30
+# b, a = a, b
+# print(a)
+# print(b)
+# min_num = a if a < b else b
+# max_num = a if a > b else b
+# print(min_num)
+# print(max_num)
+
+# print(
+#     "Both are equal"
+#     if a == b
+#     else "a is greater then b"
+#     if a > b
+#     else "b is greater than a"
+# )
+
+# a, b, c, d, e = 10, 20, 30, 40, 50
+# print(min(a, b, c, d, e))
+# print(max(a, b, c, d, e))
+
+# # to check positive in a list
+# listitem = [-6, 57, -8, 0, -5, 35, 75]
+# print([x for x in listitem if x <= 0])
+# print([x for x in listitem if x > 0])
+
+
+# Slicing List
+# x = [
+#     1,
+#     89,
+#     2,
+#     3,
+#     4,
+#     5,
+#     6,
+#     [-1, -2, -4],
+#     [45, 0, -9, 8],
+#     89,
+#     "Lasse",
+#     "Juha",
+#     "Adele",
+#     [67, 89, -5],
+# ]
+# print(x[0:6:2])
+# print(x[8::2])
+# print(len(x))  # length
+# print(x[:4])
+# print(x[2:8])
+# print(x[::-1])  # reverse
+
+
+# sum of list
+# b = [1, 0, 100, 56, 66, -1, 3, -46, -25, 464]
+# print(sum(b))
+
+
+# Extend
+# x = [
+#     1,
+#     2,
+#     3,
+#     4,
+#     5,
+#     6,
+#     [
+#         -1.0 - 3,
+#         -4,
+#     ],
+#     55,
+#     83,
+#     [34, 5, 0, 34],
+# ]
+# x.extend([2, 4, -3, 2, 4])
+# x.extend(["schbsdh", "ahcbvhc", "ascsh"])
+
+# print(x)
+
+# x.append([34, -45, 23, 48])
+# print(x)
+
+
+# List containing list
+# x = [
+#     1,
+#     2,
+#     3,
+#     4,
+#     5,
+#     6,
+#     [
+#         -1.0 - 3,
+#         -4,
+#     ],
+#     55,
+#     83,
+#     [34, 5, 0, 34],
+# ]
+# y = [18, 28, 28]
+# listoflist = [x, y]
+# print(listoflist)
+
+# Count frequency and first index
+# x = [2, 3, 4, 56, 3, 4, 5, 5, 3, 3, -0, 3, -3, -5, -6, -4, 5, 66, 4]
+# print(x.count(3))
+# print(x.index(5))
+
+# Delete element
+# print(x.pop(3))
+# print(x)
+
+# # Delete multiple in a range
+# del x[0:6]
+# print(x)
+
+# # Sort the values
+# x.sort()
+# print(x)
+
+# # Remove duplicates
+# print(list(set(x)))
+
+# Print even odd in one line
+# for n in list(range(1, 50)):
+#     print(str(n) + "is even" if n % 2 == 0 else str(n) + "is odd")
+
+# In a more arranged way
+# obj = [
+#     str(i) + "  " + "Is Even" if i % 2 == 0 else str(i) + "  " + "Is Odd"
+#     for i in range(1, 30)
+# ]
+# print(obj)
+
+
+# GUI programs
+# import tkinter as tk
+
+# root = tk.Tk()
+# w = tk.Label(root, text="REd sun", bg="red", fg="white")
+# w.pack(fill=tk.X)
+# tk.mainloop()
+
+
+# Basic yes no app
+
+# from tkinter import messagebox
+
+# response = messagebox.askyesnocancel("Ask Auestion", "Yes NO Cancel")
+# print(response)
+# if response == True:
+#     print("You Clicked Yes..")
+# elif response == False:
+#     print("You clicked No..")
+# elif response is None:
+#     print("You clicked Calcel...")
